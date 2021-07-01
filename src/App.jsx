@@ -8,21 +8,18 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    // <Router>
-    //   <Navbar />
-    //   <Switch>
-    //     <Route path ='/home'>
-    //       <Home />
-    //     </Route>
-    //     <Route path ='/contact'>
-    //       <Contact />
-    //     </Route>
-    //   </Switch>
-    //   <Footer />
-    // </Router>
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Router>
+      <Navbar />
+      {/* <Switch>
+        <Route path ='/home'>
+          <Home />
+        </Route>
+        <Route path ='/contact'>
+          <Contact />
+        </Route>
+      </Switch>
+      <Footer /> */}
+    </Router>
   );
 }
 
