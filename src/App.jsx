@@ -17,8 +17,8 @@ function App() {
         <Route path ='/contact'>
           <Contact />
         </Route>
-      </Switch>
-      <Footer /> */}
+      </Switch> */}
+      <Footer />
     </Router>
   );
 }
