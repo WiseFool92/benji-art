@@ -40,6 +40,15 @@ export default function Footer() {
           <a href="https://www.instagram.com/mr.supernova/" className="fab fa-instagram fa-2x" style={fabLinkStyle}> </a>
           <a href="https://www.youtube.com/channel/UCo4USBh5QCeNpv9nvDYoX8Q?view_as=subscriber" className="fab fa-youtube fa-2x" style={fabLinkStyle}> </a>
         </div>
+        <div className='container'>
+          <div className='row'>
+            <ul style={{listStyle: 'none'}}>
+              <li>
+                <Link to='/contact'><span style={footerLinks}>Contact</span></Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   )
