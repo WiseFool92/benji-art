@@ -48,6 +48,13 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+          <div>
+            <p style={{color: '#FFFFFF', marginBottom: '0rem', marginTop: '0rem'}}>
+              &copy; 2020-{new Date().getFullYear()}, Benji Art
+              <br/>
+              All Rights Reserved | <Link to='/terms'><span style={links}>Terms of Service</span></Link> | <Link to='/privacypolicy'><span style={links}>Privacy Policy</span></Link>
+            </p>
+          </div>
         </div>
       </div>
     </>
