@@ -10,14 +10,14 @@ function App() {
   return (
     <Router>
       <Navbar />
-      {/* <Switch>
+      <Switch>
         <Route path ='/home'>
           <Home />
         </Route>
         <Route path ='/contact'>
           <Contact />
         </Route>
-      </Switch> */}
+      </Switch>
       <Footer />
     </Router>
   );
